@@ -1,0 +1,11 @@
+qtpy
+iconify
+pyside2
+qtsass
+matplotlib
+cairosvg
+pipwin
+mysqlclient
+mock
+MySQL-python
+pycairo
