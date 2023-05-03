@@ -1,0 +1,73 @@
+*{
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+#centralwidget,#mainBodyContent,#HomeBtn,#titleBar{
+	background-color: #121212;
+}
+#header,#mainbody,#footer{
+	background-color:#292929;
+}
+#pushButton{
+	text-align:centre;
+}
+QMessageBox{
+	background-color: #121212;
+	color: #fff;
+	font-size: x-large;
+	QPushButton{
+		background-color:#292929;
+		border-radius: 0;
+		font-weight: bold;
+	}
+}
+QPushButton{
+	text-align:left;
+	padding:5px 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background-color: none;
+}
+#HomeBtn{
+	margin-top: 5px;
+	border-left: 3px solid #fff;
+	font-weight:bold;
+	border-radius: 0;
+}
+
+QLineEdit,QDateEdit,QComboBox{
+	background-color:#121212;
+	padding:5px 10px;
+}
+#bookAdd,#bookEdit,#searchBookBtn,#addLibrarianBtn,#editLibrarian,#searchLibrarianBtn,#searchApplyBtn,#returnEmpruntBtn,#ajouterEmpruntBtn,#addMemberBtn,#editMemberBtn,#MemberApplyFilter,#searchHistoryApplyBtn{
+	background-color:#3700b3;
+	text-align:center;
+	padding:8px 5px;
+	border-radius:7px
+}
+#deleteBookBtn,#clearBookBtn,#searchClearBtn,#LibrarianClearBtn,#deleteMemberBtn,#MemberClearFilter,#deleteLibrarianBtn,#searchHistoryClearBtn{
+	text-align:center;
+	background-color:#c74a61;
+	padding:8px 5px;
+	border-radius:7px
+}
+#deleteRef,#label_8{
+	margin-bottom:25px;
+}
+#bookupload{
+	padding:8px 5px;
+	background-color:#121212;
+	text-align:center;
+}
+#closeBtn::hover,#pushButton_3::hover{
+	background-color:#cf6679;
+	border-radius: 0;
+}
+#resizeBtn{
+	padding: 0;
+	margin: 0;
+}

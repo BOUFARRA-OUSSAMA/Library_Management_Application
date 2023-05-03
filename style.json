@@ -1,0 +1,337 @@
+{
+    "ShowLogs": true,
+    "QMainWindow": [
+        {
+            "tittle": "Myapp",
+			"frameless": true,
+			"sizeGrip":"resizeBtn",
+			"navigation":[
+				{
+					"minimize":"minBtn",
+					"close": "closeBtn",
+					"restore":[
+						{	
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/Icons/square.png",
+							"maximizedIcon": ":/icons/Icons/window_undock.png"
+						}
+					],
+					"moveWindow": "titleBar",
+					"tittleBar": "titleBar"
+				}
+			]
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+						{
+                            "Background-color": "#121212",
+                            "Text-color": "#fff",
+                            "Accent-color": "#292929",
+                            "Theme-name": "Dark-Theme",
+							"Icons-color": "#fff",
+                            "Default-Theme": true
+                        }
+					]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "GestLib",
+                "ApplicationName": "Gestion bibliotheque",
+                "OrginizationDormain": "GestLib.org"
+            }
+        }
+    ],
+    "QPushButtonGroup": [{
+		"Buttons": [
+			"HomeBtn",
+			"pushButton_5",
+			"pushButton_6",
+			"pushButton_8",
+			"membersBtn"
+		],
+		"Style":[{
+			"Active": "border-left: 3px solid #fff;border-radius:0;background-color: #121212;font-weight:bold;",
+			"NotActive": "background-color: transparent;border-left:none;font-weight:normal;"
+		}]
+	}],
+    "QCustomSlideMenu": [{
+		"name": "leftMenu",
+		"defaultSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 200,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "pushButton_2",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icons/Icons/align-justify.png",
+				"whenMenuIsExpanded": ":/icons/Icons/chevron-left.png"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 600,
+			"animationEasingCurve": "OutBack"
+		}]
+	},{
+		"name": "rightMenu",
+		"defaultSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 230,
+			"height": "parent"
+		}],
+		"toggleButton":[{
+			"buttonName":"pushButton_3"
+		}],
+		"openButton": [{
+			"buttonName": "pushButton_13"
+		},{
+			"buttonName": "pushButton_14"
+		},{
+			"buttonName": "pushButton_15"
+		},{
+			"buttonName": "pushButton_16"
+		},{
+			"buttonName": "pushButton_9"
+		},{
+			"buttonName": "pushButton_10"
+		},{
+			"buttonName": "pushButton_11"
+		},{
+			"buttonName": "pushButton_12"
+		},{
+			"buttonName": "pushButton_7"
+		},{
+			"buttonName": "pushButton_4"
+		},{
+			"buttonName": "pushButton_17"
+		},{
+			"buttonName": "pushButton_18"
+		},{
+			"buttonName": "pushButton_20"
+		},{
+			"buttonName": "pushButton_21"
+		},{
+			"buttonName": "pushButton_22"
+		},{
+			"buttonName": "pushButton_23"
+		}],
+		"closeButton":[{
+			"buttonName":"HomeBtn"
+		},{
+			"buttonName":"membersBtn"
+		},{
+			"buttonName":"pushButton_5"
+		},{
+			"buttonName":"pushButton_6"
+		},{
+			"buttonName":"pushButton_8"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 1000,
+			"animationEasingCurve": "OutBack"
+		}]
+	}],
+    "QStackedWidget":[
+		{
+			"name":"stackedWidget",
+			"transitionAnimation":[
+				{
+					"slide":[
+						{
+							"active":true,
+							"duration": 1250,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"HomeBtn": "Home",
+							"membersBtn":"Member",
+							"pushButton_5": "Books",
+                            "pushButton_8":"Historique",
+                            "pushButton_6":"Librarian"
+						}
+					]
+				}
+			]
+	
+		},
+		{
+			"name":"subMenuStackedWidget",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"HomeBtn":"emprunts",
+							"membersBtn": "members",
+							"pushButton_5": "books",
+							"pushButton_18":"history",
+							"pushButton_6":"librarian"
+						}
+					]
+				}
+			]
+	
+		},
+		{
+			"name":"stackedWidgetPerson",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":800,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 800,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"pushButton_13": "addmember",
+							"pushButton_14": "editmember",
+							"pushButton_15": "deletemember",
+							"pushButton_16": "searchmember"
+						}
+					]
+				}
+			]
+	
+		},
+		{
+			"name":"stackedWidgetBook",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":800,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 800,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"pushButton_9": "addBook",
+							"pushButton_10": "editBook",
+							"pushButton_11":"deleteBook",
+							"pushButton_12":"filerBooks"
+						}
+					]
+				}
+			]
+	
+		},{
+			"name":"stackedWidgetEmprunts",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":800,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 800,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"pushButton_7": "ajouterEmprunt",
+							"pushButton_4": "retrunEmprunt",
+							"pushButton_17":"searchEmprunt"
+						}
+					]
+				}
+			]
+	
+		},{
+			"name":"stackedWidgetLibrarian",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":800,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 800,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"pushButton_20": "addLibrarian",
+							"pushButton_21": "editLibrarian",
+							"pushButton_22":"deleteLibrarian",
+							"pushButton_23":"searchLibrarian"
+						}
+					]
+				}
+			]
+	
+		}
+	]
+}
