@@ -38,7 +38,7 @@ this is the login gui :
 ![log](https://user-images.githubusercontent.com/118765563/236072917-22bd053c-e0fb-4889-8d43-e90f293db96c.PNG)
 
 
-here also we can see the gui of members :
+here also we can see the gui for the library members :
 
 
 ![std](https://user-images.githubusercontent.com/118765563/236073035-78e082bd-1ad9-4505-9e2e-87768afa5f0c.PNG)
