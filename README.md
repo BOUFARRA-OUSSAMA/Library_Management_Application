@@ -63,7 +63,7 @@ The Members GUI allows you to manage members of your library. There are four but
 
 The Members GUI is easy to use and allows you to manage your library's members with ease!
 
-## Libririan GUI
+## Libririans GUI
 
 <img width="600" src=https://user-images.githubusercontent.com/118765563/236304816-d779055a-173d-4f64-8167-bdd76deb3d03.PNG >
 
