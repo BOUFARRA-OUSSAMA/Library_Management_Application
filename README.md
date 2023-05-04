@@ -36,33 +36,35 @@ python3 Login.py
 Members GUI
 The Members GUI allows you to manage members of your library. There are four buttons available also display list of all the members in the database:
 
-![Untitled design (2)](https://user-images.githubusercontent.com/118765563/236241952-cca8b9b1-3d14-4eb5-bd32-99f0f5ebfa27.png)
-
+![display_memebers](https://user-images.githubusercontent.com/118765563/236272933-91a6cc7d-5126-4509-8fbc-8c9ab27e06f3.PNG)
 
 ### Add Member:
   Clicking this button opens a side panel where you can enter the name, address, and phone number of the member you want to add.
 
+![add_memeber](https://user-images.githubusercontent.com/118765563/236274228-7b981a04-acc1-42a7-9908-c1ee3f171409.PNG)
+
 ### Modify Member:
   Clicking this button opens a side panel where you can enter the ID of the member whose information you want to modify.
+  
+![mod_memeber](https://user-images.githubusercontent.com/118765563/236274331-eb6c0de5-995c-42bf-801f-30a511b3544a.PNG)
 
 ### Delete Member: 
-  Clicking this button opens a side panel where you can enter the ID of the member you want to delete.
+  Clicking this button opens a side panel where you can enter the ID of the member you want to delete and before the suppression a prompt will ask you if you are sure you want to delete the memeber 
+![delete _ meber](https://user-images.githubusercontent.com/118765563/236274623-9c0c57de-2732-4a46-ba58-4c48419d4a5e.PNG)
 
 ### Search Member:
   Clicking this button opens a side panel where you can enter the ID, name, address, or phone number of the member you are looking for. It will display a list of members that match your search criteria.
+  ![search_memeber](https://user-images.githubusercontent.com/118765563/236274716-71143c01-eaea-4928-9a6c-fe2270f7cc58.PNG)
 
 The Members GUI is easy to use and allows you to manage your library's members with ease!
 
 here also we can see the gui for the library members :
 
-
 ![std](https://user-images.githubusercontent.com/118765563/236073035-78e082bd-1ad9-4505-9e2e-87768afa5f0c.PNG)
-
 
 here also the gui of libririans who works for the library:
 
 ![members](https://user-images.githubusercontent.com/118765563/236073230-edd8d82b-7019-42a2-a2b9-957a39fdee19.PNG)
-
 
 ## Acknowledgments
 
