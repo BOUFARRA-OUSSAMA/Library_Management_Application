@@ -33,40 +33,44 @@ python3 Login.py
 ## Screenshots
 
 📸 Here are some screenshots of the app:
-Members GUI
+
+## Members GUI
 The Members GUI allows you to manage members of your library. There are four buttons available also display list of all the members in the database:
 
 <img width="600" src= https://user-images.githubusercontent.com/118765563/236272933-91a6cc7d-5126-4509-8fbc-8c9ab27e06f3.PNG>
 
 
-### Add Member:
+###### Add Member:
   Clicking this button opens a side panel where you can enter the name, address, and phone number of the member you want to add.
 
-![add_memeber](https://user-images.githubusercontent.com/118765563/236274228-7b981a04-acc1-42a7-9908-c1ee3f171409.PNG)
 
-### Modify Member:
+###### Modify Member:
   Clicking this button opens a side panel where you can enter the ID of the member whose information you want to modify.
   
-![mod_memeber](https://user-images.githubusercontent.com/118765563/236274331-eb6c0de5-995c-42bf-801f-30a511b3544a.PNG)
 
-### Delete Member: 
+###### Delete Member: 
   Clicking this button opens a side panel where you can enter the ID of the member you want to delete and before the suppression a prompt will ask you if you are sure you want to delete the memeber 
-![delete _ meber](https://user-images.githubusercontent.com/118765563/236274623-9c0c57de-2732-4a46-ba58-4c48419d4a5e.PNG)
 
-### Search Member:
+###### Search Member:
   Clicking this button opens a side panel where you can enter the ID, name, address, or phone number of the member you are looking for. It will display a list of members that match your search criteria.
-  ![search_memeber](https://user-images.githubusercontent.com/118765563/236274716-71143c01-eaea-4928-9a6c-fe2270f7cc58.PNG)
 
 The Members GUI is easy to use and allows you to manage your library's members with ease!
 
-here also we can see the gui for the library members :
+## here also we can see the gui for libriarians :
 
-![std](https://user-images.githubusercontent.com/118765563/236073035-78e082bd-1ad9-4505-9e2e-87768afa5f0c.PNG)
+<img width="600" src=https://user-images.githubusercontent.com/118765563/236304816-d779055a-173d-4f64-8167-bdd76deb3d03.PNG >
 
-here also the gui of libririans who works for the library:
+The Librarians GUI allows you to manage the librarians who work at your library.
 
-<img width="600" src=https://user-images.githubusercontent.com/118765563/236298116-b7cd5bff-47d3-4903-80e4-e55b6137c0ac.PNG >
-
+###### Add Librarian: 
+  Clicking this button opens a side panel where you can enter the name, login name, password (and confirmation), and specify whether the new user is an admin or not.
+###### Modify Librarian:
+  Clicking this button opens a side panel where you can enter the ID of the librarian whose information you want to modify. You can change the name, password, and admin authority.
+###### Delete Librarian: 
+  Clicking this button opens a side panel with a text eara for the id of the user that we wish to delete then a prompt window asks you to confirm that you want to delete the librarian.
+###### Search Librarian:
+  Clicking this button opens a side panel where you can enter the ID or name of the librarian you are looking for.
+  
 ## Acknowledgments
 
 🙏 Special thanks to my teacher for inspiring us to build this app and for providing guidance and support throughout the development process. This project was a collaboration between me and [AdilBendaoud](https://github.com/AdilBendaoud)
