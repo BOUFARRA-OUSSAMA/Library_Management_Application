@@ -33,10 +33,24 @@ python3 Login.py
 ## Screenshots
 
 📸 Here are some screenshots of the app:
-this is the login gui :
+Members GUI
+The Members GUI allows you to manage members of your library. There are four buttons available also display list of all the members in the database:
 
-![log](https://user-images.githubusercontent.com/118765563/236072917-22bd053c-e0fb-4889-8d43-e90f293db96c.PNG)
+![Untitled design](https://user-images.githubusercontent.com/118765563/236240529-05e6fc0a-2fb8-4ee0-9d9f-f74bca8f19c7.png)
 
+### Add Member:
+  Clicking this button opens a side panel where you can enter the name, address, and phone number of the member you want to add.
+
+### Modify Member:
+  Clicking this button opens a side panel where you can enter the ID of the member whose information you want to modify.
+
+### Delete Member: 
+  Clicking this button opens a side panel where you can enter the ID of the member you want to delete.
+
+### Search Member:
+  Clicking this button opens a side panel where you can enter the ID, name, address, or phone number of the member you are looking for. It will display a list of members that match your search criteria.
+
+The Members GUI is easy to use and allows you to manage your library's members with ease!
 
 here also we can see the gui for the library members :
 
