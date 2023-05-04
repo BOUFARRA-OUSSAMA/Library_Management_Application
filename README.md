@@ -5,8 +5,15 @@
 1. Borrowing/Returning Books: Users can borrow or return books by entering their ID, name, reference, title, and date.
 2. Book Management: Librarians can add, delete, and update books with all relevant information.
 3. Librarian Management: Admins can add, delete, and update librarians and view all users in the database.
-4. History: A record of all transactions of borrowing and returning books with the name of the librarian who performed the action.
+4. History: A record with date of all transactions of borrowing and returning books with the name of the librarian who performed the action.
 5. Client Management: Admins can add, delete, and update clients and view all their information, including the name of the books they took.
+
+## Conception 
+###### Use Case Diagram
+<img width="600" src= https://user-images.githubusercontent.com/118765563/236316191-132c688e-f279-441c-a57e-7d31550423d0.jpg>
+
+###### Class Diagram 
+<img width="600" src=https://user-images.githubusercontent.com/118765563/236316355-20bd1a70-92f9-4e8f-9ada-80e466619577.jpg >
 
 ## Getting Started
 
@@ -56,7 +63,7 @@ The Members GUI allows you to manage members of your library. There are four but
 
 The Members GUI is easy to use and allows you to manage your library's members with ease!
 
-## here also we can see the gui for libriarians :
+## Members GUI
 
 <img width="600" src=https://user-images.githubusercontent.com/118765563/236304816-d779055a-173d-4f64-8167-bdd76deb3d03.PNG >
 
