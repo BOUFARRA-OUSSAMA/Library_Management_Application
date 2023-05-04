@@ -36,7 +36,8 @@ python3 Login.py
 Members GUI
 The Members GUI allows you to manage members of your library. There are four buttons available also display list of all the members in the database:
 
-![display_memebers](https://user-images.githubusercontent.com/118765563/236272933-91a6cc7d-5126-4509-8fbc-8c9ab27e06f3.PNG)
+<img width="600" src= https://user-images.githubusercontent.com/118765563/236272933-91a6cc7d-5126-4509-8fbc-8c9ab27e06f3.PNG>
+
 
 ### Add Member:
   Clicking this button opens a side panel where you can enter the name, address, and phone number of the member you want to add.
@@ -64,7 +65,7 @@ here also we can see the gui for the library members :
 
 here also the gui of libririans who works for the library:
 
-![members](https://user-images.githubusercontent.com/118765563/236073230-edd8d82b-7019-42a2-a2b9-957a39fdee19.PNG)
+<img width="600" src=https://user-images.githubusercontent.com/118765563/236298116-b7cd5bff-47d3-4903-80e4-e55b6137c0ac.PNG >
 
 ## Acknowledgments
 
